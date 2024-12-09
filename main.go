@@ -8,6 +8,8 @@ import (
 	"github.com/robfig/cron"
 )
 
+var ENVIRONMENT string = GetEnvironment()
+
 func main() {
 	c := cron.New()
 
@@ -16,9 +18,9 @@ func main() {
 		posts := external.GetPosts()
 		if len(posts) > 0 {
 			for _, post := range posts {
-				fmt.Println("Hello world! The post id is:", post.Id)
+				fmt.Printf("[%s] Hello world! The post id is: %d\n", ENVIRONMENT, post.Id)
 			}
-			fmt.Println("Posts size is:", len(posts))
+			fmt.Printf("[%s] Posts size is: %d\n", ENVIRONMENT, len(posts))
 		}
 	})
 

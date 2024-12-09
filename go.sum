@@ -1,3 +1,5 @@
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
 github.com/matheuscaet/go-cron/external v0.0.0-20241209011147-5c5a2b88b371 h1:BwxwoHx/lr6kN9Gohh1SWgyxXvyPZFrKGgy0+2JidR0=
 github.com/matheuscaet/go-cron/external v0.0.0-20241209011147-5c5a2b88b371/go.mod h1:cskep4pCT+/6tMaLoassvDY8L1KKW680B408/45Vz1E=
 github.com/matheuscaet/go-cron/external v0.0.0-20241209011434-03f83c0a9387 h1:I2cvzE8e6ljtaFPXrjrHWjjs1kZfYIFnxqDjqYEiWNg=
