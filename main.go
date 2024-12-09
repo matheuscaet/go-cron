@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/matheuscaet/go-cron/external"
 	"github.com/robfig/cron"
 )
 
@@ -12,7 +13,7 @@ func main() {
 
 	// Define the Cron job schedule
 	c.AddFunc("* * * * *", func() {
-		posts := [1]int{1024}
+		posts := external.GetPosts()
 		if len(posts) > 0 {
 			fmt.Println("Hello world! The first post is:", posts[0])
 		}

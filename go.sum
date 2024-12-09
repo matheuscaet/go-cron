@@ -1,2 +1,4 @@
+github.com/matheuscaet/go-cron/external v0.0.0-20241209011147-5c5a2b88b371 h1:BwxwoHx/lr6kN9Gohh1SWgyxXvyPZFrKGgy0+2JidR0=
+github.com/matheuscaet/go-cron/external v0.0.0-20241209011147-5c5a2b88b371/go.mod h1:cskep4pCT+/6tMaLoassvDY8L1KKW680B408/45Vz1E=
 github.com/robfig/cron v1.2.0 h1:ZjScXvvxeQ63Dbyxy76Fj3AT3Ut0aKsyd2/tl3DTMuQ=
 github.com/robfig/cron v1.2.0/go.mod h1:JGuDeoQd7Z6yL4zQhZ3OPEVHB7fL6Ka6skscFHfmt2k=
