@@ -15,7 +15,10 @@ func main() {
 	c.AddFunc("* * * * *", func() {
 		posts := external.GetPosts()
 		if len(posts) > 0 {
-			fmt.Println("Hello world! The first post is:", posts[0])
+			for _, post := range posts {
+				fmt.Println("Hello world! The post id is:", post.Id)
+			}
+			fmt.Println("Posts size is:", len(posts))
 		}
 	})
 
