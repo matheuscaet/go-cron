@@ -18,7 +18,7 @@ func main() {
 		posts := external.GetPosts()
 		if len(posts) > 0 {
 			for _, post := range posts {
-				fmt.Printf("[%s] Hello world! The post id is: %d\n", ENVIRONMENT, post.Id)
+				fmt.Printf("%v - [%s] Hello world! The post id is: %d\n", time.Now().Format(time.RFC3339), ENVIRONMENT, post.Id)
 			}
 			fmt.Printf("[%s] Posts size is: %d\n", ENVIRONMENT, len(posts))
 		}
