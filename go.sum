@@ -4,5 +4,7 @@ github.com/matheuscaet/go-cron/external v0.0.0-20241209011147-5c5a2b88b371 h1:Bw
 github.com/matheuscaet/go-cron/external v0.0.0-20241209011147-5c5a2b88b371/go.mod h1:cskep4pCT+/6tMaLoassvDY8L1KKW680B408/45Vz1E=
 github.com/matheuscaet/go-cron/external v0.0.0-20241209011434-03f83c0a9387 h1:I2cvzE8e6ljtaFPXrjrHWjjs1kZfYIFnxqDjqYEiWNg=
 github.com/matheuscaet/go-cron/external v0.0.0-20241209011434-03f83c0a9387/go.mod h1:cskep4pCT+/6tMaLoassvDY8L1KKW680B408/45Vz1E=
+github.com/matheuscaet/go-cron/logger v0.0.0-20241214174020-8c5095e2dc0b h1:LbFlDMACtbACMTVAwaZ3O34gLi5YzdkA1jDbLg0s0VI=
+github.com/matheuscaet/go-cron/logger v0.0.0-20241214174020-8c5095e2dc0b/go.mod h1:9QyxiHK5282vy0x1G7u8pQmCvQGRqc3rcAwOHl96/Uc=
 github.com/robfig/cron v1.2.0 h1:ZjScXvvxeQ63Dbyxy76Fj3AT3Ut0aKsyd2/tl3DTMuQ=
 github.com/robfig/cron v1.2.0/go.mod h1:JGuDeoQd7Z6yL4zQhZ3OPEVHB7fL6Ka6skscFHfmt2k=

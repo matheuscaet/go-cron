@@ -8,11 +8,15 @@ import (
 	"github.com/joho/godotenv"
 )
 
+var environment string
+
 func init() {
 	godotenv.Load()
+	environment = os.Getenv("APP_ENV")
+	if environment == "" {
+		environment = "production"
+	}
 }
-
-var environment = os.Getenv("ENVIRONMENT")
 
 func Error(message string) {
 	printLog(message, "Error")

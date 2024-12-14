@@ -5,10 +5,9 @@ import (
 	"time"
 
 	"github.com/matheuscaet/go-cron/external"
+	"github.com/matheuscaet/go-cron/logger"
 	"github.com/robfig/cron"
 )
-
-var ENVIRONMENT string = GetEnvironment()
 
 func main() {
 	c := cron.New()
@@ -18,9 +17,9 @@ func main() {
 		posts := external.GetPosts()
 		if len(posts) > 0 {
 			for _, post := range posts {
-				fmt.Printf("%v - [%s] Hello world! The post id is: %d\n", time.Now().Format(time.RFC3339), ENVIRONMENT, post.Id)
+				logger.Info("Post ID: " + fmt.Sprint(post.Id))
 			}
-			fmt.Printf("[%s] Posts size is: %d\n", ENVIRONMENT, len(posts))
+			logger.Info("Posts size is: " + fmt.Sprint(len(posts)))
 		}
 	})
 
